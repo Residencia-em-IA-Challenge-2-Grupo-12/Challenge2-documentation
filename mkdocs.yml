@@ -2,6 +2,7 @@ site_name: Challenge 2 - Documentacao
 site_description: Documentacao do projeto Challenge 2 (Residencia em IA - Grupo 12)
 
 nav:
+  - Inicio: index.md
   - Guia de Contribuicao: guia-contribuicao.md
   - Convencoes de Documentacao: convencoes.md
 
