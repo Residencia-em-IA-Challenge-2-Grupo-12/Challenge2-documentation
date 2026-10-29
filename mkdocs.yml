@@ -3,11 +3,20 @@ site_description: Documentacao do projeto Challenge 2 (Residencia em IA - Grupo 
 
 nav:
   - Inicio: index.md
+  - Definicao de Produto:
+      - Visao Geral: produto/index.md
+      - Visao do Produto: produto/visao-do-produto.md
+      - Personas e Jornadas: produto/personas-e-jornadas.md
+  - Requisitos:
+      - Elicitacao:
+          - Entrevista: requisitos/elicitacao/entrevista.md
+          - Workshop: requisitos/elicitacao/workshop.md
+      - Requisitos Elicitados: requisitos/requisitos.md
   - Guia de Contribuicao: guia-contribuicao.md
   - Convencoes de Documentacao: convencoes.md
-  - Requisitos:
-      - Alinhamento Estrategico: requisitos/alinhamento-estrategico.md
-      - Requisitos Elicitados: requisitos/requisitos.md
+
+validation:
+  anchors: warn
 
 theme:
   name: material

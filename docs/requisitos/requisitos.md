@@ -19,7 +19,7 @@ Na tabela 2 encontram-se todos os requisitos funcionais.
 
 | **Tipo**                  | **Descrição**                    | **Técnicas** | **Implementado** |
 | ------------------------- | -------------------------------- | ------------ | ---------------- |
-| <a id="RF01.1"></a>RF01.1 | _Descrição do requisito._        | EN01         | Não              |
+| <a id="RF01.1"></a>RF01.1 | _Descrição do requisito._        | [EN01](elicitacao/entrevista.md#EN01) | Não              |
 
 ## Requisitos Não Funcionais
 
@@ -29,7 +29,7 @@ Na tabela 3 encontram-se todos os requisitos não funcionais.
 
 | **Tipo**                    | **Descrição**                    | **Técnicas** | **Implementado** |
 | --------------------------- | -------------------------------- | ------------ | ---------------- |
-| <a id="RNF01.1"></a>RNF01.1 | _Descrição do requisito._        | EN01         | Não              |
+| <a id="RNF01.1"></a>RNF01.1 | _Descrição do requisito._        | [EN01](elicitacao/entrevista.md#EN01) | Não              |
 
 ## Conclusão
 

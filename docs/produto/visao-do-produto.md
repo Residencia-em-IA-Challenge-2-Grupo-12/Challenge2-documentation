@@ -1,15 +1,5 @@
-# Alinhamento Estratégico
+# Visão do Produto
 
-## Nesta página
-
-- [Visão do Produto](#visao-do-produto)
-- [Matriz É / Não É / Faz / Não Faz](#matriz-e-nao-e-faz-nao-faz)
-- [Objetivos de Negócio e MVP](#objetivos-de-negocio-e-mvp)
-    - [Hipótese de Validação](#hipotese-de-validacao)
-    - [Métricas de Sucesso (KPIs)](#metricas-de-sucesso-kpis)
-    - [Restrições de Negócio Relevantes para o MVP](#restricoes-de-negocio-relevantes-para-o-mvp)
-
----
 
 ## Visão do Produto {: #visao-do-produto }
 
