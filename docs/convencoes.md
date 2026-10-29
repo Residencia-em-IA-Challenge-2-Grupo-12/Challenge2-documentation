@@ -17,7 +17,7 @@
 
 Blocos de destaque (estilo Material for MkDocs) para sinalizar contexto especial:
 
-```
+```text
 !!! note "Nota"
     Contexto relevante.
 

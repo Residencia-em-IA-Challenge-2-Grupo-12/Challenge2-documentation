@@ -10,3 +10,5 @@ _Descrição do projeto a ser preenchida._
 
 - [Guia de Contribuição](guia-contribuicao.md)
 - [Convenções de Documentação](convencoes.md)
+- [Alinhamento Estratégico](requisitos/alinhamento-estrategico.md)
+- [Requisitos Elicitados](requisitos/requisitos.md)

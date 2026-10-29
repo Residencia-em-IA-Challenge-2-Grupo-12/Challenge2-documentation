@@ -17,7 +17,7 @@ O comando acima sobe o site de documentação localmente com hot-reload.
 
 Crie uma branch a partir da `main` seguindo o padrão:
 
-```
+```text
 <tipo>/<descricao-curta>
 ```
 
@@ -27,7 +27,7 @@ Exemplo: `docs/guia-de-instalacao`
 
 As mensagens de commit devem seguir o padrão:
 
-```
+```text
 tipo: descricao
 ```
 

@@ -5,6 +5,9 @@ nav:
   - Inicio: index.md
   - Guia de Contribuicao: guia-contribuicao.md
   - Convencoes de Documentacao: convencoes.md
+  - Requisitos:
+      - Alinhamento Estrategico: requisitos/alinhamento-estrategico.md
+      - Requisitos Elicitados: requisitos/requisitos.md
 
 theme:
   name: material
@@ -22,3 +25,4 @@ theme:
 
 markdown_extensions:
   - admonition
+  - attr_list
