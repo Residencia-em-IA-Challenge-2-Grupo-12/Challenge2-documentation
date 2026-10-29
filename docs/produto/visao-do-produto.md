@@ -1,6 +1,5 @@
 # Visão do Produto
 
-
 ## Visão do Produto {: #visao-do-produto }
 
 !!! quote "Declaração de Visão do Produto"
