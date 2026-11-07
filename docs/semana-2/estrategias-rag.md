@@ -86,3 +86,4 @@ Para demonstrar a qualidade da recuperacao e a fidelidade da sintese, o sistema 
 
 !!! info "Fidelidade e Mitigacao de Alucinacoes"
     O prompt de sistema opera com temperatura zero (`temperature = 0.0`) e instrucao explicita de recusa para questoes fora do dominio ou nao cobertas pelo contexto recuperado.
+

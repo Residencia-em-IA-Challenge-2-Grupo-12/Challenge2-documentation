@@ -96,3 +96,4 @@ Cada fragmento gerado recebe um conjunto de metadados padronizados:
 
 !!! warning "Contingencia Offline"
     Caso o operador execute o pipeline sem credenciais de API ativas (OpenAI ou Google), o sistema aciona automaticamente a classe `LocalKeywordHashEmbeddings`, gerando vetores determinísticos em 256 dimensoes baseados em n-grams de palavras. Isso viabiliza testes de integracao e execucoes locais sem custos.
+

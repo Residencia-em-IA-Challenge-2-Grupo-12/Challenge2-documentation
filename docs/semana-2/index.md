@@ -31,3 +31,4 @@ A documentacao da Semana 2 esta dividida nos seguintes topicos:
 1. [Arquitetura da Solucao](arquitetura.md): Visao geral dos fluxos de ingestao e inferencia, diagrama do sistema e especificacao de cada componente.
 2. [Pipeline de Ingestao de Dados](pipeline-ingestao.md): Diagrama de sequencia do ETL, tratamento de excecoes por arquivo e indexacao idempotente.
 3. [Estrategias de Chunking e Embeddings](estrategias-rag.md): Justificativas tecnicas dos parametros de segmentacao, modelos vetoriais suportados, metricas de similaridade e validacao pratica com as personas.
+

@@ -82,3 +82,4 @@ flowchart TD
 
 !!! info "Decisao Arquitetural: ChromaDB Local"
     Optou-se pelo ChromaDB embutido no processo Python nesta etapa por eliminar a necessidade de servidores ou bancos gerenciados em nuvem, mantendo a execucao totalmente reproduzivel localmente e sem custos adicionais de infraestrutura.
+
