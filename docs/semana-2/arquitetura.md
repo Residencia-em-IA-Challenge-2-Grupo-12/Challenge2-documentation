@@ -49,6 +49,7 @@ flowchart TD
 ## 3. Especificacao dos Componentes
 
 ### 3.1. Base de Conhecimento Curada
+
 - **Status:** Implementado.
 - **Localizacao:** Diretorio `./data/` do projeto principal.
 - **Composicao:** 20 artigos cientificos em formato `.txt`, organizados em 4 blocos tematicos:
@@ -58,23 +59,27 @@ flowchart TD
   4. *Planejamento Autodidata e Editais:* Box et al. (1987), Meirelles & Perez (2015), Thomas (2000), Martins & Silveira (2020) e Gleick & Goodstein (1992).
 
 ### 3.2. Camada de Ingestao e Segmentacao
+
 - **Status:** Implementado.
 - **Carregadores:** `TextLoader` com decodificacao UTF-8 tolerante a erros e `PyPDFLoader` para suporte a documentos complementares em PDF.
 - **Segmentador:** `RecursiveCharacterTextSplitter` configurado com `chunk_size = 500` caracteres e `chunk_overlap = 50` caracteres (10% de margem).
 
 ### 3.3. Persistencia Vetorial (ChromaDB)
+
 - **Status:** Implementado e persistido em disco.
 - **Engine:** ChromaDB local no diretorio `./chroma_db`, sob a colecao `residencia_ia_semana2`.
 - **Indice Vetorial:** Algoritmo HNSW (*Hierarchical Navigable Small World*) com busca por Distancia Euclidiana ($L_2$).
 - **Idempotencia:** O carregador remove IDs preexistentes antes de reinserir, evitando fragmentos duplicados em execucoes repetidas.
 
 ### 3.4. Camada de Recuperacao e Chain RAG
+
 - **Status:** Implementado e testado.
 - **Orquestracao:** LangChain Expression Language (LCEL) com execucao paralela (`RunnableParallel`) para manter os documentos recuperados e a pergunta no dicionario de saida.
 - **Retriever:** Configuracao de `similarity_search_with_score` com parametro `k = 3`.
 - **Politica de Grounding:** Prompt restritivo de sistema com temperatura `0.0`. Caso o contexto seja insuficiente, o modelo emite a recusa padrao: *"Nao encontrei informacoes suficientes na base de conhecimento para responder a essa pergunta."*
 
 ### 3.5. Auditoria e Rastreabilidade
+
 - **Status:** Implementado e verificado.
 - A formatacao de contexto injeta explicitamente `[Fonte: <arquivo> | Chunk ID: <id>]`, permitindo verificar diretamente o documento e o paragrafo exato de onde o LLM derivou cada afirmacao.
 
@@ -82,4 +87,3 @@ flowchart TD
 
 !!! info "Decisao Arquitetural: ChromaDB Local"
     Optou-se pelo ChromaDB embutido no processo Python nesta etapa por eliminar a necessidade de servidores ou bancos gerenciados em nuvem, mantendo a execucao totalmente reproduzivel localmente e sem custos adicionais de infraestrutura.
-
