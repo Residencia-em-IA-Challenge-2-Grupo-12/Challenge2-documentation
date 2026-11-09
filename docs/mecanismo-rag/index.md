@@ -1,4 +1,4 @@
-# Semana 2 — Base de Conhecimento e Mecanismo RAG
+# Mecanismo RAG — Base de Conhecimento
 
 Esta secao documenta a especificacao tecnica, a arquitetura e as estrategias adotadas no desenvolvimento do primeiro mecanismo de **Retrieval-Augmented Generation (RAG)** do projeto Challenge 2 (Residencia em IA - Grupo 12).
 
@@ -26,8 +26,8 @@ O foco central desta etapa consiste na **qualidade da recuperacao da informacao*
 
 ## Sumario da Secao
 
-A documentacao da Semana 2 esta dividida nos seguintes topicos:
+A documentacao do mecanismo RAG esta dividida nos seguintes topicos:
 
 1. [Arquitetura da Solucao](arquitetura.md): Visao geral dos fluxos de ingestao e inferencia, diagrama do sistema e especificacao de cada componente.
 2. [Pipeline de Ingestao de Dados](pipeline-ingestao.md): Diagrama de sequencia do ETL, tratamento de excecoes por arquivo e indexacao idempotente.
-3. [Estrategias de Chunking e Embeddings](estrategias-rag.md): Justificativas tecnicas dos parametros de segmentacao, modelos vetoriais suportados, metricas de similaridade e validacao pratica com as personas.
+3. [Estrategias de Chunking e Embeddings](chunking-e-embeddings.md): Justificativas tecnicas dos parametros de segmentacao, modelos vetoriais suportados, metricas de similaridade e validacao pratica com as personas.
