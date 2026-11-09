@@ -43,6 +43,8 @@ validation:
 
 theme:
   name: material
+  logo: assets/studybuddy-icone.svg
+  favicon: assets/studybuddy-icone.svg
   palette:
     - media: "(prefers-color-scheme: light)"
       scheme: default

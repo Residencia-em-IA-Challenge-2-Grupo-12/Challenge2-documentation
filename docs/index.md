@@ -1,5 +1,7 @@
 # Challenge 2 - Documentação
 
+<p align="center"><img src="assets/studybuddy-icone.svg" alt="Logo do StudyBuddy" width="160"></p>
+
 Documentação do projeto Challenge 2 (Residência em IA - Grupo 12).
 
 ## Visão Geral
