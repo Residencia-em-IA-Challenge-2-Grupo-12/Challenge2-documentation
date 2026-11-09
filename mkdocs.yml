@@ -2,6 +2,16 @@ site_name: Challenge 2 - Documentacao
 site_description: Documentacao do projeto Challenge 2 (Residencia em IA - Grupo 12)
 
 nav:
+  - Inicio: index.md
+  - Definicao de Produto:
+      - Visao Geral: produto/index.md
+      - Visao do Produto: produto/visao-do-produto.md
+      - Personas e Jornadas: produto/personas-e-jornadas.md
+  - Requisitos:
+      - Elicitacao:
+          - Entrevista: requisitos/elicitacao/entrevista.md
+          - Workshop: requisitos/elicitacao/workshop.md
+      - Requisitos Elicitados: requisitos/requisitos.md
   - Guia de Contribuicao: guia-contribuicao.md
   - Convencoes de Documentacao: convencoes.md
   - Semana 2 - Mecanismo RAG:
@@ -10,5 +20,23 @@ nav:
       - Pipeline de Ingestao: semana-2/pipeline-ingestao.md
       - Estrategias de Chunking e Embeddings: semana-2/estrategias-rag.md
 
+validation:
+  anchors: warn
+
 theme:
-  name: mkdocs
+  name: material
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/weather-night
+        name: Modo escuro
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/weather-sunny
+        name: Modo claro
+
+markdown_extensions:
+  - admonition
+  - attr_list
