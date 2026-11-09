@@ -1,0 +1,22 @@
+# Regras do markdownlint ajustadas para MkDocs Material
+default: true
+
+# Linhas longas são comuns em tabelas e parágrafos de documentação
+MD013: false
+
+# HTML inline é usado em legendas e âncoras de tabelas
+MD033: false
+
+# MkDocs exige 4 espaços de indentação em listas aninhadas
+MD007:
+  indent: 4
+
+# Admonitions (!!! note) usam blocos indentados
+MD046: false
+
+# Âncoras definidas via attr_list ({: #id }) não são reconhecidas pelo lint;
+# links internos já são validados pelo mkdocs build --strict
+MD051: false
+
+# Estilo de alinhamento de tabelas é livre
+MD060: false

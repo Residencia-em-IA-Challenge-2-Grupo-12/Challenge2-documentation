@@ -4,7 +4,6 @@ Documentação do projeto Challenge 2 (Residência em IA - Grupo 12).
 
 ## Visão Geral
 
-
 ## Sumário
 
 - Visão Geral
