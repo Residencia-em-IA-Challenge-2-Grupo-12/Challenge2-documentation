@@ -14,6 +14,11 @@ nav:
       - Requisitos Elicitados: requisitos/requisitos.md
   - Guia de Contribuicao: guia-contribuicao.md
   - Convencoes de Documentacao: convencoes.md
+  - Semana 2 - Mecanismo RAG:
+      - Visao Geral: semana-2/index.md
+      - Arquitetura da Solucao: semana-2/arquitetura.md
+      - Pipeline de Ingestao: semana-2/pipeline-ingestao.md
+      - Estrategias de Chunking e Embeddings: semana-2/estrategias-rag.md
 
 validation:
   anchors: warn
