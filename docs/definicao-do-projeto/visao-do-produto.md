@@ -22,9 +22,7 @@
 
 ### Métricas de Sucesso (KPIs) {: #metricas-de-sucesso-kpis }
 
-| Métrica | O que valida | Meta inicial sugerida |
-|:---|:---|:---|
-| **_Nome da métrica_** | _O que a métrica valida._ | _Meta._ |
+As métricas definidas pelo grupo estão em [Métricas de Sucesso](metricas-de-sucesso.md).
 
 ### Restrições de Negócio Relevantes para o MVP {: #restricoes-de-negocio-relevantes-para-o-mvp }
 

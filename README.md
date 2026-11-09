@@ -4,12 +4,15 @@ Documentação do projeto Challenge 2 (Residência em IA - Grupo 12).
 
 ## Visão Geral
 
+O projeto propõe uma plataforma de apoio ao planejamento, à periodização e ao acompanhamento de estudos, voltada a estudantes que precisam conciliar objetivos de aprendizagem, prazos e compromissos pessoais.
+
 ## Sumário
 
-- Visão Geral
-- Arquitetura
-- Instalação
-- Uso
+- Definição do Projeto
+- Requisitos
+- Elicitação
+- Mecanismo RAG
+- Contribuição
 
 ## Documentação completa
 

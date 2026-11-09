@@ -2,29 +2,49 @@ site_name: Challenge 2 - Documentacao
 site_description: Documentacao do projeto Challenge 2 (Residencia em IA - Grupo 12)
 
 nav:
-  - Inicio: index.md
-  - Definicao de Produto:
-      - Visao Geral: produto/index.md
-      - Visao do Produto: produto/visao-do-produto.md
-      - Personas e Jornadas: produto/personas-e-jornadas.md
+  - Início: index.md
+  - Definição do Projeto:
+      - Visão Geral: definicao-do-projeto/index.md
+      - Cenário e Problema: definicao-do-projeto/cenario-e-problema.md
+      - Stakeholders: definicao-do-projeto/stakeholders.md
+      - Personas: definicao-do-projeto/personas.md
+      - Visão do Produto: definicao-do-projeto/visao-do-produto.md
+      - Premissas e Riscos: definicao-do-projeto/premissas-e-riscos.md
+      - Métricas de Sucesso: definicao-do-projeto/metricas-de-sucesso.md
+      - Perguntas Norteadoras: definicao-do-projeto/perguntas-norteadoras.md
   - Requisitos:
-      - Elicitacao:
-          - Entrevista: requisitos/elicitacao/entrevista.md
-          - Workshop: requisitos/elicitacao/workshop.md
-      - Requisitos Elicitados: requisitos/requisitos.md
-  - Guia de Contribuicao: guia-contribuicao.md
-  - Convencoes de Documentacao: convencoes.md
-  - Semana 2 - Mecanismo RAG:
-      - Visao Geral: semana-2/index.md
-      - Arquitetura da Solucao: semana-2/arquitetura.md
-      - Pipeline de Ingestao: semana-2/pipeline-ingestao.md
-      - Estrategias de Chunking e Embeddings: semana-2/estrategias-rag.md
+      - Visão Geral: requisitos/index.md
+      - Requisitos Funcionais: requisitos/requisitos-funcionais.md
+      - Requisitos Não Funcionais: requisitos/requisitos-nao-funcionais.md
+  - Elicitação:
+      - Entrevista: elicitacao/entrevista.md
+      - Workshop: elicitacao/workshop.md
+  - Mecanismo RAG:
+      - Visão Geral: mecanismo-rag/index.md
+      - Arquitetura da Solução: mecanismo-rag/arquitetura.md
+      - Pipeline de Ingestão: mecanismo-rag/pipeline-ingestao.md
+      - Chunking e Embeddings: mecanismo-rag/chunking-e-embeddings.md
+  - Decisões (ADR):
+      - Visão Geral: decisoes/index.md
+      - Modelo: decisoes/modelo.md
+      - ADR-0001 RAG em Dois Pipelines: decisoes/0001-rag-em-dois-pipelines.md
+      - ADR-0002 ChromaDB Local: decisoes/0002-chromadb-local.md
+      - ADR-0003 Chunking Recursivo: decisoes/0003-chunking-recursivo-500-50.md
+      - ADR-0004 Embeddings com Fallback: decisoes/0004-embeddings-agnosticos-com-fallback.md
+      - ADR-0005 Grounding Estrito: decisoes/0005-grounding-estrito-e-rastreabilidade.md
+      - ADR-0006 Aplicação Web Responsiva: decisoes/0006-aplicacao-web-responsiva.md
+      - ADR-0007 Google Calendar Somente Leitura: decisoes/0007-google-calendar-somente-leitura.md
+  - Contribuição:
+      - Guia de Contribuição: contribuicao/guia-de-contribuicao.md
+      - Convenções de Documentação: contribuicao/convencoes.md
 
 validation:
   anchors: warn
 
 theme:
   name: material
+  logo: assets/studybuddy-icone.svg
+  favicon: assets/studybuddy-icone.svg
   palette:
     - media: "(prefers-color-scheme: light)"
       scheme: default
