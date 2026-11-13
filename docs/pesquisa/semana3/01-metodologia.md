@@ -47,10 +47,14 @@ Duas mudanças, cada uma ligada a um problema medido antes:
 
 **2. Prompt revisado** contra a *diluição* observada com k=5 (a q12 perdeu "defina quando, onde e como" quando entrou um 5º trecho fora do assunto). As regras 1 e 2 do notebook (não inventar, frase de recusa) ficaram iguais. As novas:
 
+<!-- markdownlint-disable MD029 -->
+
 > 3. Comece com 1 ou 2 frases que respondem diretamente ao que foi perguntado.
 > 4. Depois, liste em tópicos as recomendações práticas MAIS ligadas à pergunta, priorizando instruções concretas (números, passos, quando/onde/como fazer).
 > 5. Ignore os fragmentos que não tratam do que foi perguntado, mesmo que estejam no contexto.
 > 6. Termine cada tópico com a fonte utilizada no formato [Fonte: nome_do_arquivo].
+
+<!-- markdownlint-enable MD029 -->
 
 ## Calibração do porteiro (sem "colar" do gabarito)
 

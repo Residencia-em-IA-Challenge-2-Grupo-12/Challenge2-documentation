@@ -175,8 +175,8 @@ As recusas levam ~4 s; as respostas completas, de 10 a 35 s. A geração é **ma
 Antes de confiar nos números, uma amostra dos vereditos foi revisada à mão:
 
 - **Fidelidade:** foram revisadas 25 afirmações (q07, q09, q12 e q17). A concordância com o juiz foi de **23 em 25 (92%)**. As 2 discordâncias foram **rigor excessivo**:
-  - q09, *"Não é recomendável dormir só 5 horas"*: uma conclusão direta do contexto ("menos de 7 horas deteriora o foco"), que o juiz reprovou.
-  - q07, *"A prática intercalada é mais útil para o desempenho em testes"*: o contexto diz que ela "mimetiza a realidade das provas", e o juiz reprovou.
+    - q09, *"Não é recomendável dormir só 5 horas"*: uma conclusão direta do contexto ("menos de 7 horas deteriora o foco"), que o juiz reprovou.
+    - q07, *"A prática intercalada é mais útil para o desempenho em testes"*: o contexto diz que ela "mimetiza a realidade das provas", e o juiz reprovou.
 
   O juiz tende a ser **mais severo** que um humano, então a fidelidade real provavelmente é um pouco maior que 0,93.
 - **Completude:** os pontos não cobertos de q01, q08 e q15 foram conferidos no texto. **Todos os vereditos estavam corretos**: o conteúdo de fato não estava na resposta.

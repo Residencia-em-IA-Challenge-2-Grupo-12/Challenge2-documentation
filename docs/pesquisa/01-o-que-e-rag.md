@@ -31,8 +31,12 @@ pergunta ──► [1] RECUPERAÇÃO ──► trechos ──► [2] GERAÇÃO (
 
 ### A cada pergunta
 
+<!-- markdownlint-disable MD029 -->
+
 5. **Recuperação:** a pergunta também vira um vetor. O banco devolve os **K chunks mais próximos** (Top-K).
 6. **Geração:** um prompt junta "pergunta + chunks recuperados + regras" (ex.: "use só o contexto; se não souber, diga que não sabe; cite a fonte"). O LLM escreve a resposta.
+
+<!-- markdownlint-enable MD029 -->
 
 ## Analogia
 
