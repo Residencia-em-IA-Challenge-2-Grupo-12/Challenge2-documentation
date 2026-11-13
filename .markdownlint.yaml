@@ -20,3 +20,7 @@ MD051: false
 
 # Estilo de alinhamento de tabelas é livre
 MD060: false
+
+# Relatórios de pesquisa repetem subtítulos (ex.: "Visão geral") em seções diferentes
+MD024:
+  siblings_only: true

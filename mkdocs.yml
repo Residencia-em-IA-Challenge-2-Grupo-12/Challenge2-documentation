@@ -24,6 +24,25 @@ nav:
       - Arquitetura da Solução: mecanismo-rag/arquitetura.md
       - Pipeline de Ingestão: mecanismo-rag/pipeline-ingestao.md
       - Chunking e Embeddings: mecanismo-rag/chunking-e-embeddings.md
+  - Pesquisa e Métricas:
+      - Relatório Geral: pesquisa/index.md
+      - Fundamentos:
+          - Visão Geral: pesquisa/fundamentos.md
+          - 1. O que é um RAG: pesquisa/01-o-que-e-rag.md
+          - 2. O que são Métricas: pesquisa/02-o-que-sao-metricas.md
+          - 3. Por que Métricas no RAG: pesquisa/03-por-que-metricas-no-rag.md
+          - 4. Exemplo Simples: pesquisa/04-exemplo-simples.md
+          - 5. Resultados de Embeddings: pesquisa/05-resultados.md
+          - 6. Teste Manual: pesquisa/06-teste-manual.md
+          - 7. Métricas da Busca: pesquisa/07-metricas-da-busca.md
+          - 8. Geração e LLM-juiz: pesquisa/08-geracao-e-llm-juiz.md
+      - "Semana 3: LLM x RAG":
+          - Visão Geral: pesquisa/semana3/index.md
+          - 1. Metodologia: pesquisa/semana3/01-metodologia.md
+          - 2. Resultados: pesquisa/semana3/02-resultados.md
+          - 3. Decisão: pesquisa/semana3/03-decisao.md
+          - 4. Implementação: pesquisa/semana3/04-implementacao.md
+          - Avaliação via API do Gemini: pesquisa/semana3/comparacao-api-gemini.md
   - Decisões (ADR):
       - Visão Geral: decisoes/index.md
       - Modelo: decisoes/modelo.md
@@ -60,3 +79,9 @@ theme:
 markdown_extensions:
   - admonition
   - attr_list
+  - tables
+  - sane_lists
+  - toc:
+      slugify: !!python/object/apply:pymdownx.slugs.slugify
+        kwds:
+          case: lower

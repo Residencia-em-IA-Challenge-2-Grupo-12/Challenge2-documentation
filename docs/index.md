@@ -25,6 +25,9 @@ O projeto propõe uma plataforma de apoio ao planejamento, à periodização e a
     - [Entrevista](elicitacao/entrevista.md)
     - [Workshop](elicitacao/workshop.md)
 - [Mecanismo RAG](mecanismo-rag/index.md)
+- [Pesquisa e Métricas](pesquisa/index.md)
+    - [Fundamentos](pesquisa/fundamentos.md)
+    - [Semana 3: LLM x RAG](pesquisa/semana3/index.md)
 - [Decisões de Arquitetura (ADR)](decisoes/index.md)
 - Contribuição
     - [Guia de Contribuição](contribuicao/guia-de-contribuicao.md)
